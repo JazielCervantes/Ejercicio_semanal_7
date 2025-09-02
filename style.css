@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 7px;
+    
+}
+
+header {
+    font-size: 50px;
+    color: rgba(227, 227, 106, 0.642);
+}
+
+.div1{
+    grid-row: span 3 / span 3;
+    border-radius: 2%;
+    border-color: #000000;
+    border-style: solid;
+    padding: 2%;
+    background-color: rgba(155, 152, 152, 0.69);
+}
+    
+
+.div2 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 4;
+    border-radius: 2%;
+    border-color: #000000;
+    border-style: solid;
+    padding: 2%;
+    background-color: rgba(227, 227, 106, 0.642);
+}
+
+.div3 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    padding: 2%;
+}
+
+.div4 {
+    grid-row: span 4 / span 4;
+    grid-column-start: 5;
+    grid-row-start: 1;
+    border-radius: 2%;
+    border-color: #000000;
+    border-style: solid;
+    padding: 2%;
+
+}
+
+.titulo {
+    font-size: 25px;
+    background-color: rgba(50, 72, 50, 0.341);
+    color: #000000;
+}
+
+.titulocentral {
+    font-size: 35px;
+    color: #000000;
+}
+
+.imagen {
+    height: 65px;
+    width: 65px;
+}
